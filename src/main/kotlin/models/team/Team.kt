@@ -1,7 +1,7 @@
 package models.team
 
 import models.enums.Formation
-import models.player.Players
+import models.player.Player
 import models.team.stadium.Stadium
 import java.util.UUID
 
@@ -10,6 +10,6 @@ class Team(
     var name: String,
     var formation: Formation,
     var playingStyle: PlayingStyle,
-    var players: Players,
+    var players: ArrayList<Player>,
     var stadium: Stadium
 )

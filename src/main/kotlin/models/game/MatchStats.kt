@@ -1,6 +1,6 @@
 package models.game
 
-import models.player.Players
+import models.player.Player
 
 class MatchStats (
     val goals: Int,
@@ -10,8 +10,8 @@ class MatchStats (
     val passes: Int,
     val passesAccuracy: Int,
     val fouls: Int,
-    val yellowCards: ArrayList<Players>,
-    val redCards: ArrayList<Players>,
+    val yellowCards: ArrayList<Player>,
+    val redCards: ArrayList<Player>,
     val offsides: Int,
     val corners: Int
 )
